@@ -1,0 +1,25 @@
+.socialsContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.socialsContainer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: white;
+}
+
+.socialsContainer li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 12px;
+    text-decoration: none;
+}
+
+.socialsContainer li a:hover {
+    background-color: #383737;
+    cursor: pointer;
+}
