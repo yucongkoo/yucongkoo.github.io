@@ -1,5 +1,5 @@
 #intro {
-    height: calc(100vh - 4rem);
+    height: 100vh;
     width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
@@ -17,23 +17,28 @@
 }
 
 .introContent {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     padding: 2rem;
-    font-size: 3rem;
-    font-weight: 700;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+.introTitle {
+    font-size: var(--big-font-size);
+    color: var(--title-color-dark);
+    font-weight: var(--font-semi-bold);
+}
+
 .introName {
-    color: yellow;
+    color: var(--primary-color);
 }
 
 .introPara {
-    font-size: medium;
-    font-weight: 300;
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+    color: var(--title-color);
     letter-spacing: 1px;
 }
 
@@ -51,7 +56,8 @@
     height: 1rem;
 }
 
-@media screen and (max-width:840px) {
+/* For medium devices */
+@media screen and (max-width: 768px) {
     .bg {
         right: -10vw;
     }
@@ -60,7 +66,8 @@
     }
 }
 
-@media screen and (max-width:480px) {
+
+@media screen and (max-width:350px) {
     .bg {
         right: -20vw;
     }

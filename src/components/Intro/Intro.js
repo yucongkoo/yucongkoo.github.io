@@ -6,9 +6,9 @@ import { Link } from 'react-scroll';
 
 const Intro = () => {
   return (
-    <section id="intro">
+    <section className='section' id="intro">
         <div class="introContent">
-            <span class="introText">
+            <span class="introTitle">
                 Hi, I'm <span class="introName">Yu Cong</span>
             </span>
             <p class="introPara">
@@ -16,8 +16,6 @@ const Intro = () => {
                 <br />
                 with software-driven solutions
             </p>
-            <Link><button class="btn"><img src={btnImg} alt="Hire Me" className='btnImg' />Hire Me</button></Link>
-
         </div>
 
         <img src={bg} alt="Profile Picture" className='bg' />

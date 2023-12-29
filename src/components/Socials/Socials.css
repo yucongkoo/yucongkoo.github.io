@@ -13,13 +13,13 @@
 
 .socialsContainer li a {
     display: block;
-    color: white;
+    color: var(--primary-color);
     text-align: center;
     padding: 12px 12px;
     text-decoration: none;
 }
 
 .socialsContainer li a:hover {
-    background-color: #383737;
+    color: var(--secondary-color);
     cursor: pointer;
 }

@@ -1,17 +1,18 @@
 import React from 'react';
 import './About.css';
-import Heading from '../Heading/Heading';
 import profileImage from '../../assets/proflie-img.jpeg';
 import Socials from '../../components/Socials/Socials';
+import Resume from '../../assets/resume.pdf';
 
 const About = () => {
   return (
-    <section id='about'>
+    <section className='about section' id='about'>
+        <h2 className='sectionTitle'>About Me</h2>
+        <span className='sectionSubtitle'>My introduction</span>
+
         <div className='aboutContainer'>
             <div className='aboutTextContainer'>
                 <div className='aboutText'>
-                    <Heading headingText='About Me' />
-        
                     <p>
                         I am presently enrolled in the Computer Science program at the National University of Singapore (NUS) 
                         with an anticipated graduation date of May 2026. I have currently maintained a perfect Cumulative Average 
@@ -29,10 +30,14 @@ const About = () => {
                         activities to foster connections with friends and colleagues.
                     </p>
                 </div>
+
+                <a download="" href={Resume} className='button button-flex downloadResumeButton'>
+                    Download My Resume
+                </a>
             </div>
 
             <div className='aboutImgContainer'>
-                <img src={profileImage} alt="Profile Picture" className='profileImg' />
+                <img src={profileImage} alt="ProfilePicture" className='profileImg' />
                 <Socials />
             </div>
         </div>
