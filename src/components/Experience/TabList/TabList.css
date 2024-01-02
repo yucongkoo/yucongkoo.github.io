@@ -1,0 +1,91 @@
+.tabList {
+    display: flex;
+    text-align: center;
+    width: 950px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.tabs {
+    color: var(--title-color);
+    text-align: right;
+    min-width: 210px;
+    padding-right: 5px;
+}
+
+.tab {
+    cursor: pointer;
+    padding: 15px 10px 15px 40px;
+}
+.tab:hover {
+    background-color: var(--secondary-color);
+}
+
+.activeTab{
+    background-color: var(--primary-color);
+    color: var(--body-color);
+}
+.activeTab:hover {
+    background-color: var(--primary-color);
+}
+
+.tabContents {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.tabContents ul {
+    list-style-type: circle;
+    text-align: start;
+}
+
+.tabContentHeader {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-semi-bold);
+    color: var(--title-color);
+    display: flex;
+}
+
+.tabContentHeaderLinkContainer {
+    margin-left: 5px;
+}
+
+.tabContentHeaderLinkContainer {
+    margin-left: 5px;
+    color: var(--primary-color);
+}
+
+.tabContentHeaderLink {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.tabContentHeaderLink:hover {
+    color: var(--secondary-color);
+}
+
+.tabContentSubHeader {
+    color: var(--title-color-dark);
+    margin-bottom: 5px;
+}
+
+.tabContentBody {
+    margin-left: 20px;
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+    .tabList {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tabs {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+        justify-content: center;
+    }
+}

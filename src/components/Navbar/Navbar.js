@@ -34,18 +34,18 @@ const Navbar = () => {
             </li>
 
             <li className='navItem'>
-              <a href='#intro' 
-              onClick={() => setActiveNav('intro')}
-              className={getNavStyling('intro')} 
+              <a href='#experience' 
+              onClick={() => setActiveNav('experience')}
+              className={getNavStyling('experience')} 
               spy smooth>
                 <i className='uil uil-briefcase-alt navIcon'></i> Experience
               </a>
             </li>
 
             <li className='navItem'>
-              <a href='#intro' 
-              onClick={() => setActiveNav('intro')}
-              className={getNavStyling('intro')} 
+              <a href='#coursework' 
+              onClick={() => setActiveNav('coursework')}
+              className={getNavStyling('coursework')} 
               spy smooth>
                 <i className='uil uil-briefcase-alt navIcon'></i> Courseworks
               </a>
@@ -59,8 +59,8 @@ const Navbar = () => {
           <i className='uil uil-apps'></i>
         </div>
 
-        <button class="contactMeButton" >
-          <Link to='contact' >
+        <button className='contactMeButton'>
+          <Link to='contact' className='contactMeButtonLink'>
             <span>Contact Me</span>
           </Link>
         </button>

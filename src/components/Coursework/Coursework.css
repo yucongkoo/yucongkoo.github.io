@@ -1,0 +1,46 @@
+#coursework {
+    height: 100%;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+.courseworkSectionContainer {
+    padding: 30px;
+}
+
+.courseworkSectionContainer ul {
+    list-style-type: disc;
+}
+
+.courseworkSectionHeader {
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-medium);
+    color: var(--title-color);
+}
+
+.courseworkSectionData a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.courseworkSectionData a:hover {
+    color: var(--primary-color);
+}
+
+.courseGrade {
+    font-weight: var(--font-medium);
+}
+
+.courseworkSectionData i {
+    color: var(--primary-color);
+}
+
+.courseworkSectionData i:hover {
+    color: var(--secondary-color);
+}
+
+.courseworksContainer {
+    display: flex;
+    justify-content: center;
+}

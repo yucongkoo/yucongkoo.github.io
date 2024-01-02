@@ -56,8 +56,11 @@
     justify-content: center;
     border: none;
     border-radius: 2rem;
-    padding: 1rem 2rem;
     font-size: var(--small-font-size);
+}
+
+.contactMeButtonLink {
+    padding: 1rem 2rem;
 }
 
 .contactMeButton:hover {
