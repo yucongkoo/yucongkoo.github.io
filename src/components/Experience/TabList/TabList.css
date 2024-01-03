@@ -2,6 +2,7 @@
     display: flex;
     text-align: center;
     width: 950px;
+    height: 100%;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -50,7 +51,6 @@
     font-weight: var(--font-semi-bold);
     color: var(--title-color);
     display: flex;
-    align-items: center;
 }
 
 .tabContentHeaderLinkContainer {
@@ -85,6 +85,15 @@
     .tabList {
         display: flex;
         flex-direction: column;
+    }
+
+    .tabContentHeader {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .tabContentHeaderLinkContainer {
+        margin-left: 0;
     }
 
     .tabs {
