@@ -142,6 +142,11 @@ const courseworkData = [
                 courseLink: 'https://nusmods.com/courses/CS2106/introduction-to-operating-systems',
                 courseGrade: 'Grading In Progress'
             },
+            {
+                course: 'CP2106 Independent Software Development Project',
+                courseLink: 'https://nusmods.com/courses/CP2106/independent-software-development-project-orbital',
+                courseGrade: 'CS'
+            },
         ]
     },
     {

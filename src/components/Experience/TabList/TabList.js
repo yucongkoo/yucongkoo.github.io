@@ -29,8 +29,10 @@ const TabList = (props) => {
                     {activeTabData.title}
                     <span className='tabContentHeaderLinkContainer'>
                         @
+                    </span>
+                    <span className='tabContentHeaderLinkContainer'>
                         <a className='tabContentHeaderLink' href={activeTabData.companyLink} target="_blank" rel="noreferrer">
-                            {activeTabData.company}
+                            {activeTabData.companyFullName}
                         </a>
                     </span>
 
