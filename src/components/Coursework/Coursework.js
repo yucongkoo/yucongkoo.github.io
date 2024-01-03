@@ -1,7 +1,7 @@
 import React from 'react';
 import './Coursework.css';
 
-const Coursework = () => {
+const Coursework = (props) => {
 
     const leftColData = courseworkData.filter((e, idx) => idx <= courseworkData.length / 2 - 1);
     const rightColData = courseworkData.filter((e, idx) => idx > courseworkData.length / 2 - 1);
@@ -42,7 +42,7 @@ const Coursework = () => {
     }
 
   return (
-    <section className='coursework section' id='coursework'>
+    <section className='coursework section' id='coursework' ref={props.sectionRef}>
         <h2 className='sectionTitle'>Courseworks</h2>
         <span className='sectionSubtitle'>Relevant courses I took in university</span>
 

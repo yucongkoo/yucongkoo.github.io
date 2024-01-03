@@ -2,9 +2,9 @@ import React from 'react';
 import TabList from './TabList/TabList';
 import './Experience.css';
 
-const Experience = () => {
+const Experience = (props) => {
   return (
-    <section className='experience section' id='experience'>
+    <section className='experience section' id='experience' ref={props.sectionRef}>
         <h2 className='sectionTitle'>Experiences</h2>
         <span className='sectionSubtitle'>Companies I worked at</span>
 

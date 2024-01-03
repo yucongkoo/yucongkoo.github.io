@@ -2,16 +2,16 @@ import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import './Navbar.css';
 
-const Navbar = () => {
+const Navbar = (props) => {
   /* Toggle Menu*/
   const [menuIsShown, setMenuIsShown] = useState(false);
   const [activeNav, setActiveNav] = useState('intro');
 
-  const getNavStyling = navName => activeNav === navName ? 'navLink active-link' : 'navLink';
+  const getNavStyling = navName => props.activeSection === navName ? 'navLink active-link' : 'navLink';
 
   return (
     <header className='header'>
-      <nav className='nav container'>
+      <nav className='nav container' ref={props.sectionRef}>
 
         <div className={menuIsShown ? 'navMenu show-menu' : 'navMenu'}>
           <ul className='navListGrid'>

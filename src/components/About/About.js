@@ -4,9 +4,9 @@ import profileImage from '../../assets/proflie-img.jpeg';
 import Socials from './Socials/Socials';
 import Resume from '../../assets/resume.pdf';
 
-const About = () => {
+const About = (props) => {
   return (
-    <section className='about section' id='about'>
+    <section className='about section' id='about' ref={props.sectionRef}>
         <h2 className='sectionTitle'>About Me</h2>
         <span className='sectionSubtitle'>My introduction</span>
 

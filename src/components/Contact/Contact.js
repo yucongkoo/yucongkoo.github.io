@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import emailjs, { send } from '@emailjs/browser';
 import './Contact.css';
 
-const Contact = () => {
+const Contact = (props) => {
 
     const form = useRef();
 
@@ -83,7 +83,7 @@ const Contact = () => {
 
 
     return (
-        <section className='contact section' id='contact'>
+        <section className='contact section' id='contact' ref={props.sectionRef}>
             <h2 className='sectionTitle'>Contact Me</h2>
             <span className='sectionSubtitle'>Get in touch</span>
 
