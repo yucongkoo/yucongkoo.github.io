@@ -1,5 +1,7 @@
 import React from 'react';
 import './Coursework.css';
+import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Coursework = (props) => {
 
@@ -22,16 +24,23 @@ const Coursework = (props) => {
                                         {e.course}
                                     </a>
                                     <span className='courseGrade'>
-                                        {' '}({e.courseGrade}) {' '}
+                                        {' '}(
+
+                                        {
+                                            e.courseGradeLink
+                                            ? (<span className='linkedCourseGrade'> 
+                                                <a href={e.courseGradeLink} target='_blank' rel='noreferrer'>
+                                                    {e.courseGrade}{' '}
+                                                    <FontAwesomeIcon icon={faArrowUpRightFromSquare} className='courseGradeIcon' />
+                                                    {' '}
+                                                </a>
+                                               </span>)
+                                            : (<span> 
+                                                {e.courseGrade}
+                                               </span>)
+                                        }
+                                        )
                                     </span>
-                                    
-                                    {
-                                        e.courseGradeLink 
-                                        ? (<a href={e.courseGradeLink} target='_blank' rel='noreferrer'>
-                                                <i className='uil uil-external-link-alt'></i>
-                                            </a>) 
-                                        : ''
-                                    }
                                 </div>
                             </li>
                         ))}

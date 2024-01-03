@@ -1,8 +1,6 @@
 import React from 'react';
 import './Intro.css';
 import bg from '../../assets/image.png';
-import btnImg from '../../assets/hireme.png';
-import { Link } from 'react-scroll';
 
 const Intro = (props) => {
   return (
@@ -16,6 +14,12 @@ const Intro = (props) => {
                 <br />
                 with software-driven solutions
             </p>
+
+            <button className='findOutMoreBtn'>
+              <a href='#about' className='findOutMoreBtnLink'>
+                <span>Find out more</span>
+              </a>
+            </button>
         </div>
 
         <img src={bg} alt="Profile Picture" className='bg' />

@@ -29,19 +29,15 @@
 }
 
 .courseworkSectionData a:hover {
-    color: var(--primary-color);
+    color: var(--accent-color);
 }
 
 .courseGrade {
     font-weight: var(--font-medium);
 }
 
-.courseworkSectionData i {
-    color: var(--primary-color);
-}
-
-.courseworkSectionData i:hover {
-    color: var(--secondary-color);
+.courseGradeIcon {
+    color: var(--accent-color);
 }
 
 .courseworksContainer {

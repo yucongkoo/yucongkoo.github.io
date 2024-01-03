@@ -38,6 +38,10 @@
     margin-left: 50px;
 }
 
+.downloadResumeButton {
+    margin-top: 20px;
+}
+
 .profileImg {
     object-fit: cover;
     border-radius: 50%;

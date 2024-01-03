@@ -56,6 +56,49 @@
     height: 1rem;
 }
 
+.findOutMoreBtn {
+    background-color: var(--body-color);
+    font-size: var(--h2-font-size);
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin-top: 2rem;
+}
+
+.findOutMoreBtn a {
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.findOutMoreBtn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+}
+
+.findOutMoreBtn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.findOutMoreBtn:hover span {
+    padding-right: 25px;
+}
+
+.findOutMoreBtn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
 /* For medium devices */
 @media screen and (max-width: 768px) {
     .bg {

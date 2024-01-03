@@ -11,11 +11,15 @@
     text-align: right;
     min-width: 210px;
     padding-right: 5px;
+    font-weight: var(--font-semi-bold);
 }
 
 .tab {
     cursor: pointer;
     padding: 15px 10px 15px 40px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-bottom: 10px;
 }
 .tab:hover {
     background-color: var(--secondary-color);
@@ -87,5 +91,12 @@
         flex-direction: row;
         margin-bottom: 10px;
         justify-content: center;
+    }
+
+    .tab {
+        margin-right: 10px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0;
+        padding: 15px 40px 15px 40px;
     }
 }

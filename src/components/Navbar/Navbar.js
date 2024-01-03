@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll';
+import { faComments } from '@fortawesome/free-regular-svg-icons';
 import './Navbar.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Navbar = (props) => {
   /* Toggle Menu*/
   const [menuIsShown, setMenuIsShown] = useState(false);
-  const [activeNav, setActiveNav] = useState('intro');
 
   const getNavStyling = navName => props.activeSection === navName ? 'navLink active-link' : 'navLink';
 
@@ -17,7 +18,6 @@ const Navbar = (props) => {
           <ul className='navListGrid'>
             <li className='navItem'>
               <a href='#intro' 
-              onClick={() => setActiveNav('intro')}
               className={getNavStyling('intro')} 
               spy smooth>
                 <i className='uil uil-estate navIcon'></i> Home
@@ -26,7 +26,6 @@ const Navbar = (props) => {
 
             <li className='navItem'>
               <a href='#about' 
-              onClick={() => setActiveNav('about')}
               className={getNavStyling('about')} 
               spy smooth>
                 <i className='uil uil-user navIcon'></i> About
@@ -35,7 +34,6 @@ const Navbar = (props) => {
 
             <li className='navItem'>
               <a href='#experience' 
-              onClick={() => setActiveNav('experience')}
               className={getNavStyling('experience')} 
               spy smooth>
                 <i className='uil uil-briefcase-alt navIcon'></i> Experience
@@ -44,7 +42,6 @@ const Navbar = (props) => {
 
             <li className='navItem'>
               <a href='#coursework' 
-              onClick={() => setActiveNav('coursework')}
               className={getNavStyling('coursework')} 
               spy smooth>
                 <i className='uil uil-briefcase-alt navIcon'></i> Courseworks
@@ -59,7 +56,13 @@ const Navbar = (props) => {
           <i className='uil uil-apps'></i>
         </div>
 
-        <button className='contactMeButton'>
+        <div className='navToggle'>
+          <Link to='contact'>
+            <FontAwesomeIcon icon={faComments}/>
+          </Link>
+        </div>
+
+        <button className='contactMeButton' >
           <Link to='contact' className='contactMeButtonLink'>
             <span>Contact Me</span>
           </Link>
