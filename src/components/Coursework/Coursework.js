@@ -88,7 +88,7 @@ const courseworkData = [
             {
                 course: 'CS1231S Discrete Structures',
                 courseLink: 'https://nusmods.com/courses/CS1231S/discrete-structures',
-                courseGrade: 'TopStudent',
+                courseGrade: 'Top Student',
                 courseGradeLink: 'https://credentials.nus.edu.sg/5f0929c4-1e09-433f-887b-bdab2ef923ff'
             },
             {
