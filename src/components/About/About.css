@@ -58,7 +58,9 @@
         padding: 2rem;
     }
 
-    .profileImg {
+
+    .aboutImgContainer {
+        margin-left: 0;
         margin-top: 10px;
     }
 }

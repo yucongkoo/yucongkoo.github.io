@@ -5,8 +5,8 @@ import './Experience.css';
 const Experience = (props) => {
   return (
     <section className='experience section' id='experience' ref={props.sectionRef}>
-        <h2 className='sectionTitle'>Experiences</h2>
-        <span className='sectionSubtitle'>Companies I worked at</span>
+        <h2 className='sectionTitle'>Experience</h2>
+        <span className='sectionSubtitle'>Where I've worked</span>
 
         <div className='tabListContainer'>
             <TabList data={experiencesData} />

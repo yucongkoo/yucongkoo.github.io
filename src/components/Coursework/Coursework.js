@@ -53,7 +53,7 @@ const Coursework = (props) => {
   return (
     <section className='coursework section' id='coursework' ref={props.sectionRef}>
         <h2 className='sectionTitle'>Courseworks</h2>
-        <span className='sectionSubtitle'>Relevant courses I took in university</span>
+        <span className='sectionSubtitle'>Relevant courses I've took</span>
 
         <div className='courseworksContainer'>
             <div className='courseworksLeftCol'>

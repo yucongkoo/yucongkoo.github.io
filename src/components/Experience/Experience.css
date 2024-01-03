@@ -9,3 +9,10 @@
     width: 100vw;
     padding: 2rem;
 }
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+    .experience {
+        height: 100%;
+    }
+}
