@@ -24,7 +24,8 @@ const experiencesData = [
         date: 'Jan 2024 - Present',
         body: [
             "Worked in the Securities Financing Technology team, co-located with portfolio managers at the front office, to implement a full stack software solution",
-            "To be updated..."
+            "Practised Test-Driven Development(TDD), pair programming and Practised Scrum framework, participating in daily standups and contributing to sprint planning and sprint review sessions.",
+            "Practised multiple software engineering practices, such as Pair Programming, Test Driven Development and Object-Oriented Programming, ensuring excellence in code quality and developed proficiency in React(typescript), C# and Python."
         ]
     },
     {

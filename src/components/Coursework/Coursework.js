@@ -130,17 +130,19 @@ const courseworkData = [
             {
                 course: 'CS2103T Software Engineering',
                 courseLink: 'https://nusmods.com/courses/CS2103T/software-engineering',
-                courseGrade: 'A+'
+                courseGrade: 'Top Student',
+                courseGradeLink: "https://credentials.nus.edu.sg/afb4f8d6-c74e-4bea-90cc-298d10ccce4a"
             },
             {
                 course: 'CS2105 Introduction to Computer Networks',
                 courseLink: 'https://nusmods.com/courses/CS2105/introduction-to-computer-networks',
-                courseGrade: 'A+'
+                courseGrade: 'Top Student',
+                courseGradeLink: "https://credentials.nus.edu.sg/d8767c35-5f41-4512-b0f3-ff1e45ce699c"
             },
             {
                 course: 'CS2106 Introduction to Operating Systems',
                 courseLink: 'https://nusmods.com/courses/CS2106/introduction-to-operating-systems',
-                courseGrade: 'Grading In Progress'
+                courseGrade: 'A+'
             },
             {
                 course: 'CP2106 Independent Software Development Project',
@@ -162,6 +164,11 @@ const courseworkData = [
                 courseLink: 'https://nusmods.com/courses/ST2334/probability-and-statistics',
                 courseGrade: 'Ongoing'
             },
+            {
+                course: 'CP3880 Advanced Technology Attachment Programme',
+                courseLink: 'https://nusmods.com/courses/CP3880/advanced-technology-attachment-programme',
+                courseGrade: "Ongoing"
+            }
         ]
     },
 ];

@@ -94,7 +94,6 @@ const Contact = (props) => {
                     <div className="contactInfo">
                         {getContactCard('Email', 'yucongkoo0214@gmail.com', 'mailto:yucongkoo0214@gmail.com')}
                         {getContactCard('WhatsApp', '+65-8890 7002', 'https://api.whatsapp.com/send?phone=+6588907002&text=Hey there, found your contact via your website!')}
-                        {getContactCard('Email', 'yucongkoo0214@gmail.com', 'mailto:yucongkoo0214@gmail.com')}
                     </div>
                 </div>
 
