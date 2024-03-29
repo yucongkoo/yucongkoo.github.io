@@ -38,6 +38,7 @@ const experiencesData = [
             "Taught the Programming Methodology (CS1101S) course, leading a class of 8 year1 undergraduates to learn fundamental knowledge in programming and entry level data structures and algorithms",
             "Cooperated closely with 4 lead professors and fellow teaching assistants in team meetings to discuss student progress, instructional strategies, and curriculum planning",
             "Fostered a positive and inclusive classroom atmosphere to encourage student participation",
+            "Received an overall rating of 4.8/5 and was nominated by 25% of the class for teaching awards."
         ]
     },
     {
