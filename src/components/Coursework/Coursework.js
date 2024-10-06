@@ -95,6 +95,11 @@ const courseworkData = [
                 course: 'MA2001 Linear Algebra I',
                 courseLink: 'https://nusmods.com/courses/MA2001/linear-algebra-i',
                 courseGrade: 'A+'
+            },
+            {
+                course: "GEA1000 Quantitative Reasoning with Data",
+                courseLink: "https://nusmods.com/courses/GEA1000/quantitative-reasoning-with-data",
+                courseGrade: "A+"
             }
         ]
     },
@@ -157,17 +162,42 @@ const courseworkData = [
             {
                 course: 'CS2109S Introduction to AI and Machine Learning',
                 courseLink: 'https://nusmods.com/courses/CS2109S/introduction-to-ai-and-machine-learning',
-                courseGrade: 'Ongoing'
+                courseGrade: 'A+'
             },
             {
                 course: 'ST2334 Probability and Statistics',
                 courseLink: 'https://nusmods.com/courses/ST2334/probability-and-statistics',
-                courseGrade: 'Ongoing'
+                courseGrade: 'A+'
             },
             {
                 course: 'CP3880 Advanced Technology Attachment Programme',
                 courseLink: 'https://nusmods.com/courses/CP3880/advanced-technology-attachment-programme',
+                courseGrade: "CS"
+            }
+        ]
+    },
+    {
+        header: 'AY24/25 Semester 1',
+        data: [
+            {
+                course: 'CS3230 Design and Analysis of Algorithms',
+                courseLink: 'https://nusmods.com/courses/CS3230/design-and-analysis-of-algorithms',
+                courseGrade: 'Ongoing'
+            },
+            {
+                course: 'CS3210 Parallel Computing',
+                courseLink: 'https://nusmods.com/courses/CS3210/parallel-computing',
+                courseGrade: 'Ongoing'
+            },
+            {
+                course: 'CS2102 Database Systems',
+                courseLink: 'https://nusmods.com/courses/CS2102/database-systems',
                 courseGrade: "Ongoing"
+            },
+            {
+                course: 'QF1100 Introduction to Quantitative Finance',
+                courseLink: 'https://nusmods.com/courses/QF1100/introduction-to-quantitative-finance',
+                courseGrade: 'Ongoing'
             }
         ]
     },

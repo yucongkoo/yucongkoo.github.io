@@ -21,11 +21,12 @@ const experiencesData = [
         companyFullName: 'GIC Private Limited',
         companyLink: 'https://www.gic.com.sg',
         title: 'Full Stack Developer Intern',
-        date: 'Jan 2024 - Present',
+        date: 'Jan 2024 - Aug 2024',
         body: [
-            "Worked in the Securities Financing Technology team, co-located with portfolio managers at the front office, to implement a full stack software solution",
-            "Practised Test-Driven Development(TDD), pair programming and Practised Scrum framework, participating in daily standups and contributing to sprint planning and sprint review sessions.",
-            "Practised multiple software engineering practices, such as Pair Programming, Test Driven Development and Object-Oriented Programming, ensuring excellence in code quality and developed proficiency in React(typescript), C# and Python."
+            "Collaborated with a Scrum team consisting of 9 software engineers to iteratively implement a full-stack software solution for portfolio managers in Securities Financing team, enhancing scalability and reliability of multiple workflows by more than 50%.",
+            "Delivered firmwide Internal Securities Borrowing and Lending (ISBL) feature, envisioned to reliably increase utilization of internal securities by 80%, providing GIC with a robust cross- portfolio lending framework with recall management.",
+            "Migrated deployment pipeline from Jenkins and CloudBees to Github CI/CD workflows, reducing deployment time from over an hour to under 10 minutes, boosting team productivity by enabling faster and more reliable deployments.",
+            "Engineered a Python automation script to streamline preparation of development data environments, saving up to 30 minutes daily."
         ]
     },
     {
