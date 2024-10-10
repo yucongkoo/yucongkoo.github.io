@@ -1,7 +1,5 @@
 import React from 'react';
 import './About.css';
-import profileImage from '../../assets/proflie-img.jpeg';
-import Socials from './Socials/Socials';
 import Resume from '../../assets/resume.pdf';
 
 const About = (props) => {
@@ -34,11 +32,6 @@ const About = (props) => {
                 <a download="" href={Resume} className='button button-flex downloadResumeButton'>
                     Download My Resume
                 </a>
-            </div>
-
-            <div className='aboutImgContainer'>
-                <img src={profileImage} alt="ProfilePicture" className='profileImg' />
-                <Socials />
             </div>
         </div>
     </section>

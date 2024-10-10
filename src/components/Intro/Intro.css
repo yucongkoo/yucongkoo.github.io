@@ -16,9 +16,16 @@
     z-index: -1;
 }
 
-.introContent {
+.introContainer {
     height: 100%;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem;
+}
+
+.introContent {
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -97,6 +104,22 @@
 .findOutMoreBtn:hover span:after {
     opacity: 1;
     right: 0;
+}
+
+.aboutImgContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+}
+
+
+.profileImg {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    margin-bottom: 10px;
 }
 
 /* For medium devices */

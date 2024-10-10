@@ -31,24 +31,10 @@
     margin-bottom: 10px;
 }
 
-.aboutImgContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 50px;
-}
-
 .downloadResumeButton {
     margin-top: 20px;
 }
 
-.profileImg {
-    object-fit: cover;
-    border-radius: 50%;
-    width: 350px;
-    height: 350px;
-    margin-bottom: 10px;
-}
 
 @media screen and (max-width:768px) {
     .aboutContainer {
