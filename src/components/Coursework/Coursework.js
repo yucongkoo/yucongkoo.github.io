@@ -99,7 +99,7 @@ const courseworkData = [
             {
                 course: "GEA1000 Quantitative Reasoning with Data",
                 courseLink: "https://nusmods.com/courses/GEA1000/quantitative-reasoning-with-data",
-                courseGrade: "A+"
+                courseGrade: "A"
             }
         ]
     },
@@ -182,21 +182,46 @@ const courseworkData = [
             {
                 course: 'CS3230 Design and Analysis of Algorithms',
                 courseLink: 'https://nusmods.com/courses/CS3230/design-and-analysis-of-algorithms',
-                courseGrade: 'Ongoing'
+                courseGrade: 'A+'
             },
             {
                 course: 'CS3210 Parallel Computing',
                 courseLink: 'https://nusmods.com/courses/CS3210/parallel-computing',
-                courseGrade: 'Ongoing'
+                courseGrade: 'A+'
             },
             {
                 course: 'CS2102 Database Systems',
                 courseLink: 'https://nusmods.com/courses/CS2102/database-systems',
-                courseGrade: "Ongoing"
+                courseGrade: "A+"
             },
             {
                 course: 'QF1100 Introduction to Quantitative Finance',
                 courseLink: 'https://nusmods.com/courses/QF1100/introduction-to-quantitative-finance',
+                courseGrade: 'A+'
+            }
+        ]
+    },
+    {
+        header: 'AY24/25 Semester 2',
+        data: [
+            {
+                course: 'CS3211 Parallel and Concurrent Programming',
+                courseLink: 'https://nusmods.com/courses/CS3211/parallel-and-concurrent-programming',
+                courseGrade: 'Ongoing'
+            },
+            {
+                course: 'CS4231Parallel and Distributed Algorithms',
+                courseLink: 'https://nusmods.com/courses/CS4231/parallel-and-distributed-algorithms',
+                courseGrade: 'Ongoing'
+            },
+            {
+                course: 'CS3281 Thematic Systems Project I',
+                courseLink: 'https://nusmods.com/courses/CS3281/thematic-systems-project-i',
+                courseGrade: "Ongoing"
+            },
+            {
+                course: 'QF3103 Advanced Mathematics in Quantitative Finance',
+                courseLink: 'https://nusmods.com/courses/QF3103/advanced-mathematics-in-quantitative-finance',
                 courseGrade: 'Ongoing'
             }
         ]
