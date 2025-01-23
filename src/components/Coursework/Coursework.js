@@ -78,7 +78,7 @@ const Coursework = (props) => {
 
 const courseworkData = [
     {
-        header: 'AY22/23 Semester 1',
+        header: 'Year 1 Semester 1',
         data: [
             {
                 course: 'CS1101S Programming Methodology',
@@ -104,7 +104,7 @@ const courseworkData = [
         ]
     },
     {
-        header: 'AY22/23 Semester 2',
+        header: 'Year 1 Semester 2',
         data: [
             {
                 course: 'CS2030S Programming Methodology II',
@@ -130,7 +130,7 @@ const courseworkData = [
         ]
     },
     {
-        header: 'AY23/24 Semester 1',
+        header: 'Year 2 Semester 1',
         data: [
             {
                 course: 'CS2103T Software Engineering',
@@ -157,7 +157,7 @@ const courseworkData = [
         ]
     },
     {
-        header: 'AY23/24 Semester 2',
+        header: 'Year 2 Semester 2',
         data: [
             {
                 course: 'CS2109S Introduction to AI and Machine Learning',
@@ -177,7 +177,7 @@ const courseworkData = [
         ]
     },
     {
-        header: 'AY24/25 Semester 1',
+        header: 'Year 3 Semester 1',
         data: [
             {
                 course: 'CS3230 Design and Analysis of Algorithms',
@@ -192,7 +192,8 @@ const courseworkData = [
             {
                 course: 'CS2102 Database Systems',
                 courseLink: 'https://nusmods.com/courses/CS2102/database-systems',
-                courseGrade: "A+"
+                courseGrade: 'Top Student',
+                courseGradeLink: "https://credentials.nus.edu.sg/73064970-93a5-4f05-8967-898b6f36cb0d#acc.AH8lobDN"
             },
             {
                 course: 'QF1100 Introduction to Quantitative Finance',
@@ -202,7 +203,7 @@ const courseworkData = [
         ]
     },
     {
-        header: 'AY24/25 Semester 2',
+        header: 'Year 3 Semester 2',
         data: [
             {
                 course: 'CS3211 Parallel and Concurrent Programming',

@@ -1,6 +1,5 @@
 import React from 'react';
 import './About.css';
-import Resume from '../../assets/resume.pdf';
 
 const About = (props) => {
   return (
@@ -13,8 +12,10 @@ const About = (props) => {
                 <div className='aboutText'>
                     <p>
                         I am presently enrolled in the Computer Science program at the National University of Singapore (NUS) 
-                        with an anticipated graduation date of May 2026. I have currently maintained a perfect Cumulative Average 
-                        Point(CAP): 5.0/5.0, and have also received multiple top student awards in programming-related modules.
+                        with an anticipated graduation date of May 2026. I have currently maintained a perfect CGPA of 5.0/5.0,
+                        with Dean's List awarded in all eligible semesters and received various top student awards in CS modules. 
+                        With passion in high performing and scalable systems, I am working towards focus areas in Parallel Computing, Software Engineering, and 
+                        Networking & Distributed Systems.
                     </p>
                     <br/>
                     <p>
@@ -28,10 +29,6 @@ const About = (props) => {
                         activities to foster connections with friends and colleagues.
                     </p>
                 </div>
-
-                <a download="" href={Resume} className='button button-flex downloadResumeButton'>
-                    Download My Resume
-                </a>
             </div>
         </div>
     </section>
