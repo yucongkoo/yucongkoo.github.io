@@ -208,22 +208,22 @@ const courseworkData = [
             {
                 course: 'CS3211 Parallel and Concurrent Programming',
                 courseLink: 'https://nusmods.com/courses/CS3211/parallel-and-concurrent-programming',
-                courseGrade: 'Ongoing'
+                courseGrade: 'A'
             },
             {
                 course: 'CS4231Parallel and Distributed Algorithms',
                 courseLink: 'https://nusmods.com/courses/CS4231/parallel-and-distributed-algorithms',
-                courseGrade: 'Ongoing'
+                courseGrade: 'A'
             },
             {
                 course: 'CS3281 Thematic Systems Project I',
                 courseLink: 'https://nusmods.com/courses/CS3281/thematic-systems-project-i',
-                courseGrade: "Ongoing"
+                courseGrade: "A+"
             },
             {
                 course: 'QF3103 Advanced Mathematics in Quantitative Finance',
                 courseLink: 'https://nusmods.com/courses/QF3103/advanced-mathematics-in-quantitative-finance',
-                courseGrade: 'Ongoing'
+                courseGrade: 'A+'
             }
         ]
     },

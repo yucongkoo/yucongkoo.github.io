@@ -1,5 +1,5 @@
 #intro {
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
@@ -129,6 +129,9 @@
     }
     .introContent {
         font-size: 10vw;
+    }
+    .introContainer {
+        flex-direction: column;
     }
 }
 
