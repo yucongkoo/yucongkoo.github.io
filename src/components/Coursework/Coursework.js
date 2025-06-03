@@ -211,7 +211,7 @@ const courseworkData = [
                 courseGrade: 'A'
             },
             {
-                course: 'CS4231Parallel and Distributed Algorithms',
+                course: 'CS4231 Parallel and Distributed Algorithms',
                 courseLink: 'https://nusmods.com/courses/CS4231/parallel-and-distributed-algorithms',
                 courseGrade: 'A'
             },
