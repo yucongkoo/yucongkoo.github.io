@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.75330f61.css",
-    "main.js": "/static/js/main.e282325b.js",
+    "main.js": "/static/js/main.8a34d8d1.js",
     "static/media/proflie-img.jpeg": "/static/media/proflie-img.a6c8a96a0474309706c5.jpeg",
     "index.html": "/index.html",
     "main.75330f61.css.map": "/static/css/main.75330f61.css.map",
-    "main.e282325b.js.map": "/static/js/main.e282325b.js.map"
+    "main.8a34d8d1.js.map": "/static/js/main.8a34d8d1.js.map"
   },
   "entrypoints": [
     "static/css/main.75330f61.css",
-    "static/js/main.e282325b.js"
+    "static/js/main.8a34d8d1.js"
   ]
 }
